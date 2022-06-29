@@ -9,6 +9,10 @@ module.exports = {
       backgroundImage: {
         blur: 'url(/src/assets/blur-background.png)'
       },
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+      },
+
       fontFamily: {
         sans: 'Roboto, sans-serif'
       },
