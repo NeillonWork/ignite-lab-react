@@ -27,12 +27,10 @@ export function Subscribe() {
     }
 
     return (
-
-
         <div className="min-h-screen bg-blur bg-cover bg-no-repeat flex flex-col items-center bg-fixed">
 
             <div className="mt-8 bg-no-repeat items-center flex-col absolute animate-spin-slow -z-10">
-                <img src="/src/assets/ReactJS icon.svg" alt="" />
+                <LogoReact />
             </div>
 
             <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
