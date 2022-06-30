@@ -75,16 +75,16 @@ export function Subscribe() {
             </div>
             <footer className="bg-gray-900/50 w-full flex-grow opacity-70">
                 <div className="flex items-center justify-center gap-4">
-                    <div className="h-16 mt-2 mb-2 flex justify-center">
+                    <div className="h-16 mt-2 mb-2 flex justify-center xs:ml-6  xs:w-20">
                         <img
                             className="rounded-full border-2 border-blue-500"
                             src="https://avatars.githubusercontent.com/u/60415245?v=4"
                             alt="Avatar Dev Neillon Almeida de Oliveira"
                         />
                     </div>
-                    <div>
+                    <div className="flex flex-col items-start xs:items-start">
                         <strong className="font-bold block">Neillon Almeida de Oliveira</strong>
-                        <span className="text-gray-200 text-sm block">
+                        <span className="text-gray-200 text-sm block items-center text-center xs:text-start">
                             Desenvolvedor Frontend Jr - <a className="text-blue-500 hover:text-green-500 transition-colors" href="https://github.com/NeillonWork">
                                 https://github.com/NeillonWork
                             </a>
