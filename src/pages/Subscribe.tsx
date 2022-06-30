@@ -75,7 +75,7 @@ export function Subscribe() {
             </div>
             <footer className="bg-gray-900/50 w-full flex-grow opacity-70">
                 <div className="flex items-center justify-center gap-4">
-                    <div className="h-16 mt-2 mb-2 flex justify-center xs:ml-16  xs:w-24">
+                    <div className="h-16 mt-2 mb-2 flex justify-center xs:ml-10  xs:w-24">
                         <img
                             className="rounded-full border-2 border-blue-500"
                             src="https://avatars.githubusercontent.com/u/60415245?v=4"
