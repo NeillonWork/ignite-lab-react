@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         blur: 'url(/src/assets/blur-background.png)',
-        reactIcon: 'url(/src/assets/ReactJSicon.svg)'
+        mockup: 'url(/src/assets/code-mockup.png)'
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',

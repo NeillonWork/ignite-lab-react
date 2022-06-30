@@ -1,7 +1,9 @@
+import { GithubLogo } from "phosphor-react";
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { LogoReact } from "../components/LogoReact";
+import { VscodePrint } from "../components/VscodesPrint";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 
@@ -70,8 +72,28 @@ export function Subscribe() {
                     </form>
                 </div>
             </div>
-            <img src="/src/assets/code-mockup.png" className="mt-10" alt="Imagem printscreen vscode" />
+            {/* <img src="/src/assets/code-mockup.png" className="mt-10" alt="Imagem printscreen vscode" /> */}
+            <VscodePrint />
 
-        </div>
+            <footer className="bg-gray-900/50 w-full">
+                <div className="flex items-center justify-center gap-4">
+                    <div className="h-16 mt-2 mb-2 flex justify-center">
+                        <img
+                            className="rounded-full border-2 border-blue-500"
+                            src="https://avatars.githubusercontent.com/u/60415245?v=4"
+                            alt="Avatar Dev Neillon Almeida de Oliveira"
+                        />
+                    </div>
+                    <div>
+                        <strong className="font-bold block">Neillon Almeida de Oliveira</strong>
+                        <span className="text-gray-200 text-sm block">
+                            Desenvolvedor Frontend Jr - <a className="text-blue-500 hover:text-green-500 transition-colors" href="https://github.com/NeillonWork">
+                                https://github.com/NeillonWork
+                            </a>
+                        </span>
+                    </div>
+                </div >
+            </footer >
+        </div >
     );
 }
