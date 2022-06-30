@@ -3,8 +3,6 @@ export function VscodePrint() {
         <svg
             xmlns="http://www.w3.org/2000/svg"
             xmlnsXlink="http://www.w3.org/1999/xlink"
-            width="1216"
-            height="650"
             fill="none"
             viewBox="0 0 1216 650"
         >
@@ -23,7 +21,7 @@ export function VscodePrint() {
                 <g filter="url(#filter0_f_24_690)">
                     <path
                         fill="url(#paint1_linear_24_690)"
-                        fillOpacity="0.5"
+                        fillOpacity="0.2"
                         d="M104 157H1086V731H104z"
                     ></path>
                 </g>
